@@ -1,0 +1,99 @@
+.knob-section{
+  .font{
+    .call{
+     color: rgba(255, 251, 96, 0.68);
+    }
+    .out{
+      color: rgba(96, 255, 242, 0.68);
+    }
+
+    i{
+      font-size: 4rem;
+      color: #60a3ff;
+      padding-top: 30px;
+      display: block;
+    }
+  }
+  .knob-box{
+    height: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px 0;
+    border: 1px solid #fafafa;
+    box-shadow:0px 0px 8px #fafafa;
+    .knob-child{
+      border: 1px solid #000;
+    }
+    .text{
+      margin-top: 10px;
+      font-size: 14px;
+    }
+    .number{
+      font-size:4rem;
+    }
+
+
+    .call{
+      width: 50%;
+      text-align: left;
+    }
+  }
+}
+
+.common-search{
+  margin-bottom: 20px;
+  .field{
+    padding: 0 5px;
+  }
+  .field-right{
+    padding: 0 5px 0 0;
+  }
+  .field-left{
+    padding: 0 0 0 5px;
+  }
+  .search-title{
+    padding-left: 15px;
+  }
+}
+
+$extend-label-width: 180px;
+.portal-form{
+  .form-group{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .from-text{
+    padding-top: 7px;
+    vertical-align: bottom;
+    display: inline-block;
+  }
+
+
+  .extend-label{
+    width: 100px;
+    padding-right: 10px;
+  }
+  .extend-large-input{
+    width: 500px;
+  }
+  .extend-normal-input{
+    width: 300px;
+  }
+  .extend-small-input{
+    width: 200px;
+  }
+  .tip-require{
+    color: red;
+    padding: 10px 10px 0 10px;
+  }
+  .tip-require-block{
+    color: red;
+    padding: 0px 10px 0 10px;
+    height: 100px;
+    float: left;
+  }
+  .extend-content{
+    padding-top: 7px;
+    display: inline-block;
+  }
+}

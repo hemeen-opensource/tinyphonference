@@ -1,0 +1,24 @@
+@mixin circlebox($radius:20px) {
+  width: $radius*2;
+  height: $radius*2;
+  border-radius: $radius;
+}
+
+$colorlist: (deepblue: #3672c3, blue: #60a3ff, red: #ff396c, green: #13dfc9, lightgreen: #13dfc9, yellow: #f6ff00, pink: #ff688f, purple: #98a2cc, while: #ffffff, brown: #FF9547, darkgreen: #19a29c);
+@each $name, $color in $colorlist {
+  .#{$name} {
+    color: $color !important;
+  }
+  .#{$name}bg {
+    background-color: $color !important;
+  }
+  .#{$name}border {
+    border-color: $color !important;
+  }
+}
+
+@each $name, $color in $colorlist {
+  .#{$name}-left-border {
+    border-left: 2px solid $color;
+  }
+}

@@ -1,0 +1,56 @@
+// 左边导航
+.app-sidebar{
+  width: 140px;
+  color: #fff;
+  position: fixed;
+  top:0;
+  height: 100%;
+  background: #273238;
+  z-index:999;
+  .active{
+    background: #1f292e;
+    i{
+      color: #fff;
+    }
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.4rem;
+    margin-bottom: 0;
+    li{
+      a {
+        height: 100px;
+        width: 100%;
+        text-decoration: none;
+        padding-top: 22px;
+        color:#FFF;
+        display: block;
+        i{
+          font-size: 2.6rem;
+          padding-bottom: 4px;
+        }
+      }
+      text-align: center;
+      border-bottom: 1px solid #111415;
+      border-top: 1px solid #323f47;
+    }
+    .logo-box{
+      background: #60a3ff;
+      height: 56px !important;
+      border-top: 1px solid transparent;
+      a{
+        border:0 !important;
+        padding: 0;
+        height: 50px;
+        line-height: 56px;
+      }
+    }
+    .nav{
+      &:hover{
+        @extend .active;
+      }
+    }
+  }
+}

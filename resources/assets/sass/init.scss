@@ -1,0 +1,52 @@
+//加载公共样式包
+
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss";
+@import 'node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_mixins.scss';
+
+// // Reset and dependencies
+@import 'node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss';
+// @import "bootstrap/print";
+//
+// // Core CSS
+@import 'node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding.scss';
+@import 'node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_type.scss';
+@import 'node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_code.scss';
+@import 'node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_grid.scss';
+@import 'node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss';
+@import 'node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss';
+@import 'node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss';
+//
+// // Components
+// @import "bootstrap/component-animations";
+@import 'node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss';
+// @import "bootstrap/button-groups";
+@import 'node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_input-groups.scss';
+@import 'node_modules/bootstrap-sass/assets/stylesheets/bootstrap/navs.scss';
+@import 'node_modules/bootstrap-sass/assets/stylesheets/bootstrap/navbar.scss';
+// @import "bootstrap/navs";
+// @import "bootstrap/navbar";
+// @import "bootstrap/breadcrumbs";
+// @import "bootstrap/pagination";
+// @import "bootstrap/pager";
+@import 'node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_labels.scss';
+// @import "bootstrap/badges";
+// @import "bootstrap/jumbotron";
+// @import "bootstrap/thumbnails";
+// @import "bootstrap/alerts";
+@import 'node_modules/bootstrap-sass/assets/stylesheets/bootstrap/progress-bars';
+// @import "bootstrap/media";
+@import 'node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_list-group.scss';
+@import 'node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss';
+// @import "bootstrap/responsive-embed";
+// @import "bootstrap/wells";
+// @import "bootstrap/close";
+
+// Components w/ JavaScript
+// @import "bootstrap/modals";
+// @import "bootstrap/tooltip";
+// @import "bootstrap/popovers";
+// @import "bootstrap/carousel";
+
+// Utility classes
+@import 'node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_utilities.scss';
+@import 'node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss';

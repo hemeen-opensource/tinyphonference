@@ -1,0 +1,49 @@
+.app-main{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  padding-right: 100px;
+  margin-left: 140px;
+  padding-bottom: 200px;
+}
+
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.position-layout {
+  position: relative;
+}
+
+.position-center {
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+// 内容
+.app-content{
+  background: #fdfdfd;
+  padding: 0;
+  position: relative;
+  top: 56px;
+  .child-content{
+    padding: 0px 40px 0 20px;
+    .help-block{
+      display: inline-block;
+    }
+  }
+}
+
+
+
+
+
+
+
+

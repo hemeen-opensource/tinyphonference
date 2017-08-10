@@ -1,0 +1,124 @@
+body {
+  background-image: url(../images/login-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  font-size: 14px;
+  background-size: cover;
+  height: 100%;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  color: #000;
+  font-weight: 400;
+  line-height: 1.25;
+  font-family: 'Microsoft YaHei';
+}
+
+.portal--common{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -250px;
+
+  width: 500px;
+  .nav-tabs {
+    border: 1px solid #dddddd !important;
+    > li {
+      > a {
+        color:#666;
+        width: 149px;
+        border: 1px solid transparent !important;
+        margin: 0 !important;
+        text-align: center;
+        border-radius: 0;
+        &:hover {
+          border-radius: 0;
+          color:#FFF;
+          background-color: #13dfc9 !important;
+        }
+      }
+      &.active > a {
+        &,
+        &:hover,
+        &:focus {
+          color: #FFF;
+          background-color: #13dfc9 !important;
+          border: 1px solid transparent;
+        }
+      }
+    }
+  }
+}
+
+.login-logo {
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+.panel-welcome{
+  border-radius: 0 !important;
+  .panel-heading{
+    font-size: 30px;
+    background: #f9f9f9;
+    border-radius: 0 !important;
+    padding: 0;
+    height: 100px;
+    line-height: 100px;
+  }
+  .panel-body{
+    padding:20px 15px;
+    min-height: 300px;
+    .form{
+      margin: 0 auto;
+      width: 300px;
+      input[type="text"],
+      input[type="password"] {
+        height: 40px;
+      }
+      .btn-form {
+        height: 40px;
+        line-height: 28px;
+        width: 100%;
+      }
+    }
+    .forget-content{
+      padding-top: 30px;
+      .form-group{
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+
+
+
+
+
+.btn-green{
+  color: #fff !important;
+  background-color: #13dfc9 !important;
+  border-color: #13dfc9 !important;
+  &:focus, &:hover{
+    background-color: #13dfc9 !important;
+    color: #ffffff !important;
+  }
+}
+
+.btn-while{
+  color: #333 !important;
+  background-color: #fff !important;
+  border: 1px solid #dddddd !important;
+}
+
+.width-fifty{
+  width: 49%;
+}
+
+.width-fourty{
+  width: 40%;
+}
+
+
+
+
+

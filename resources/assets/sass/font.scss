@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "iconfont2";
+  src: url('../self-fonts/iconfont.eot'); /* IE9*/
+  src: url('../self-fonts/iconfont.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../self-fonts/iconfont.woff') format('woff'), /* chrome, firefox */
+  url('../self-fonts/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../self-fonts/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont2" !important;
+  font-size:16px;
+  color:#b0b7cd;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width:0px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-monitor:before { content: "\e60a"; }
+
+.icon-exhale:before { content: "\e66a"; }
+
+.icon-incoming:before { content: "\e66b"; }
+
+.icon-statistics:before { content: "\e671"; }
+
+.icon-date-left:before { content: "\e600"; }
+
+.icon-date-right:before { content: "\e601"; }
+
+.icon-statistic:before { content: "\e672"; }
+
+.icon-account:before { content: "\e673"; }
+
+.icon-send:before { content: "\e674"; }
+
+.icon-template:before { content: "\e675"; }
+
+.icon-index:before { content: "\e676"; }
+
+
+
